@@ -84,14 +84,6 @@ const ModifyFlightsTopup = () => {
                 <CiSearch  className="text-lg font-bold text-slate-100 "/>
                 <button className="text-slate-100 text-md ml-2 font-neue">search flights</button>
                 </div>
-            <div className="flex w-64 ">
-            <div className="mr-24 pl-none">
-            {!showDownArrow1 && <DropDown />}
-            </div>
-            <div className="ml-52">
-            {!showDownArrow2 && <DropDown/>}
-            </div>
-            </div>
             </div>
             </div>
         </div>
